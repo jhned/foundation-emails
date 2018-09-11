@@ -253,6 +253,7 @@ Solution?
 
 - Create emails that are short and to the point. Too many call-to-actions's, topics, or long emails don't tend to work that well anyways.
 - Minify your HTML. The ZURB Stack comes with a setting to minify the HTML if you run `npm run build`. This will remove white-space which adds to the charachter count and file size. Our [web inliner](http://foundation.zurb.com/emails/inliner.html) also has an option to remove (compress) whitespace between your charachters.
+- Reassess your CSS usage. Foundation for Emails comes with a lot of boilerplate CSS that you might not need in every situation. If you're driven to extreme measures to cut the file size down, clone the source SCSS files into your project and modify them as necessary.
 
 ---
 
